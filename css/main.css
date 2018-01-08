@@ -89,6 +89,8 @@ button {
   font-weight: 300;
   padding: 8px;
   cursor: pointer;
+  text-decoration: none;
+  border: #0F7DF6;
 }
 
 footer {
