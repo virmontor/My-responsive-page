@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+  background-color: #343A3F;
+  color: white;
+  text-align: right;
+}
+
+#image-header {
+  background-image: url("../assets/images/1584.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.titlebold {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.titlebold2 {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.email {
+  color: blue;
+  cursor: pointer;
+}
+
+.text1 {
+  font-size: 15px;
+}
+
+/*Filas para bajar*/
+.espacio1 {
+  height: 15px;
+}
+
+.espacio2 {
+  height: 80px;
+}
+
+.espacio3 {
+  height: 30px;
+}
+
+.menu-1 {
+  font-size: 14px;
+  border-top: 40px;
+  cursor: pointer;
+}
+
+.space {
+  font-weight: 700;
+}
+
+.title  {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.title2  {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+
+.image-header {
+  display: block;
+}
+
+
+button {
+  background: #0F7DF6;
+  border-radius: 5px;
+  color: white;
+  font-size: 10px;
+  font-weight: 300;
+  padding: 8px;
+  cursor: pointer;
+}
+
+footer {
+  outline: black solid 1px;
+  background-color: #343A3F;
+  color: white;
+  text-align: center;
+  height:60px;
+}
+
+#btn {
+  display: none;
+}
+
+/*.rowcontainer {
+  outline: black solid 1px;
+}*/
+
+@media screen and (max-width: 768px){
+
+  #card1 {
+    width: 100%;
+  }
+  #card2 {
+    width: 100%;
+  }
+  #card3 {
+    width: 100%;
+  }
+
+  #whatwedo {
+    width: 100%;
+  }
+
+  #contact {
+    width: 100%;
+  }
+
+  #btn {
+    display: block;
+  }
+
+  #btn2 {
+    background-color: #343A3F;
+    color: white;
+    cursor: pointer;
+    width: 30%;
+  }
+
+  #menu {
+    display: none;
+  }
+}
