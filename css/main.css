@@ -59,6 +59,11 @@ header {
   cursor: pointer;
 }
 
+.name {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
 .space {
   font-weight: 700;
 }
@@ -138,6 +143,10 @@ footer {
     color: white;
     cursor: pointer;
     width: 30%;
+  }
+
+  .name {
+    font-size: 50px;
   }
 
   #menu {
